@@ -1,0 +1,33 @@
+Set-Content -Path ".gitignore" -Value @'
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Next.js Build Output
+.next/
+out/
+
+# Local Database & SQLite Data
+*.db
+*.db-journal
+*.sqlite
+local.db
+
+# TypeScript Build Info
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment Variables & Secrets
+.env
+.env*.local
+
+# Tooling & Agent Artifacts
+.antigravity/
+dev-skills-vault/
+
+# OS / Editor Artifacts
+.DS_Store
+Thumbs.db
+*.log
+'@
