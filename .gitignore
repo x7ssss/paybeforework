@@ -1,4 +1,3 @@
-Set-Content -Path ".gitignore" -Value @'
 # Dependencies
 node_modules/
 /.pnp
@@ -11,7 +10,11 @@ out/
 # Local Database & SQLite Data
 *.db
 *.db-journal
+*.db-wal
+*.db-shm
 *.sqlite
+*.sqlite-journal
+*.sqlite3
 local.db
 
 # TypeScript Build Info
@@ -20,7 +23,11 @@ next-env.d.ts
 
 # Environment Variables & Secrets
 .env
-.env*.local
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # Tooling & Agent Artifacts
 .antigravity/
@@ -30,4 +37,7 @@ dev-skills-vault/
 .DS_Store
 Thumbs.db
 *.log
-'@
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
