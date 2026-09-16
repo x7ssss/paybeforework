@@ -1,4 +1,4 @@
-# PayBeforeWork 🛡️
+# PayBeforeWork
 
 > **Open-Source Upfront Milestone Agreement & Deposit Lock Tool for Freelancers**
 
@@ -6,7 +6,7 @@ Never start client work without a deposit again. PayBeforeWork empowers solo dev
 
 ---
 
-## ⚡ Why PayBeforeWork?
+## Why PayBeforeWork
 
 Freelancers lose thousands of dollars each year to **scope creep**, **delayed kickoff deposits**, and **payment default**. Traditional freelance platforms charge 10–20% platform cuts, while boilerplate legal contracts are dense, unreadable, and routinely ignored.
 
@@ -18,7 +18,7 @@ Freelancers lose thousands of dollars each year to **scope creep**, **delayed ki
 
 ---
 
-## 🚀 Core Features
+## Core Features
 
 ### 1. Mandatory Upfront Deposit Clearance (Condition Precedent)
 - Contracts incorporate **Section 3.1: Condition Precedent to Performance & Deposit Clearance**.
@@ -46,7 +46,7 @@ Freelancers lose thousands of dollars each year to **scope creep**, **delayed ki
 
 ---
 
-## 🏗️ Architecture & Tech Stack
+## Architecture & Tech Stack
 
 ```
 paybeforework/
@@ -85,7 +85,7 @@ paybeforework/
 
 ---
 
-## 🚦 Application Routes & User Flow
+## Application Routes & User Flow
 
 ```mermaid
 flowchart LR
@@ -114,7 +114,7 @@ flowchart LR
 
 ---
 
-## 🛠️ Local Setup & Getting Started
+## Local Setup
 
 ### Prerequisites
 - **Node.js:** v18.18.0 or higher (v20+ recommended)
@@ -167,7 +167,7 @@ npm run start
 
 ---
 
-## ⚖️ Legal & Regulatory Disclaimer
+## Legal & Regulatory Disclaimer
 
 **PayBeforeWork provides software generation and electronic signature infrastructure only.**
 - PayBeforeWork is **not** a law firm, does not offer legal advice, and does not establish an attorney-client relationship.
@@ -177,6 +177,6 @@ npm run start
 
 ---
 
-## 📄 License
+## License
 
-This project is licensed under the [MIT License](LICENSE). Contributions, bug reports, and pull requests are welcome!
+MIT © [x7sss](https://github.com/x7ssss)
